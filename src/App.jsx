@@ -1,12 +1,20 @@
-
-import './App.css'
+import "./App.css";
+import Sidebar from "./component/sidebar/Sidebar";
 
 function App() {
-  
-
   return (
-    <h1>hello</h1>
+    <>
+    <div className="app">
+<div className="appGlass">
+  <div className="">
+    <Sidebar/>
+  </div>
+  <div className=""></div>
+  <div className=""></div>
+</div>
+    </div>
+    </>
   )
 }
 
-export default App
+export default App;
