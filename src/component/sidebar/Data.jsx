@@ -37,10 +37,10 @@ export const CardsData = [
     title: "Sales",
     color: {
       backGround: "linear-gradient(180deg, #bb67ff, 0%,#c484f3 100%)",
-      boxShadow: "10px 0px 20px 0px #e0c6f5"
+      boxShadow: "10px 0px 20px 0px #5d2789"
     },
-    barValue:70,
-     value:"2567",
+    bar:70,
+     value1:"2321",
      png:UilUsdSquare,
      series:{
         name: "Sales",
@@ -50,11 +50,11 @@ export const CardsData = [
   {
     title: "Expence",
     color: {
-      backGround: "linear-gradient(180deg, #dbc978, 0%,#ac9c12 100%)",
-      boxShadow: "10px 0px 20px 0px #e0c6f5"
+      backGround: "linear-gradient(180deg, #e3c231, 0%,#f8e111 100%)",
+      boxShadow: "10px 0px 20px 0px #886a10"
     },
-    barValue:75,
-     value:"12567",
+    bar:75,
+    value1:"1234",
      png:UilClipboardAlt,
      series:{
         name: "Sales",
@@ -64,11 +64,11 @@ export const CardsData = [
   {
     title: "Profit",
     color: {
-      backGround: "linear-gradient(180deg, #bb67ff, 0%,#c484f3 100%)",
-      boxShadow: "10px 0px 20px 0px #e0c6f5"
+      backGround: "linear-gradient(180deg, #ff919d, 0%,#fa6879 100%)",
+      boxShadow: "10px 0px 20px 0px #ab2434"
     },
-    barValue:90,
-     value:"2567",
+    bar:'80',
+    value1:"52432",
      png:UilMoneyWithdrawal,
      series:{
         name: "Sales",

@@ -10,10 +10,11 @@ function Cards() {
           <div className="parentCard">
             <Card
               title={card.title}
-              image={card.png}
-              value={card.value}
-              barValue={card.barValue}
+              png={card.png}
+              value1={card.value1}
+              bar={card.bar}
               series={card.series}
+              color={card.color}
             />
           </div>
         );
