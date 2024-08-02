@@ -5,3 +5,13 @@
 .parentCard {
   width: 100%;
 }
+
+@media (max-width: 1200px) {
+  .Cards {
+ flex-direction: column;
+  }
+.parentCard {
+  height: 9rem;
+margin-bottom: 2rem;  
+}
+}

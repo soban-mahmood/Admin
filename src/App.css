@@ -24,9 +24,8 @@ root {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
-
 
 .appGlass {
   display: grid;
@@ -34,7 +33,16 @@ root {
   width: 97%;
   background: var(--glass);
   border-radius: 2rem;
-  gap: 18px;
+  gap: 25px;
   grid-template-columns: 11rem auto 20rem;
   overflow: hidden;
+}
+
+
+
+@media (max-width: 1200px) {
+  .appGlass{
+    grid-template-columns: 10% 50% auto;
+    overflow-y: scroll;
+  }
 }

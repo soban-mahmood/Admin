@@ -2,7 +2,10 @@ import React from 'react'
 import './Right.css'
 
 import Uptodate from '../uptodate/Uptodate'
+import Coustomer from '../coustmer/coustomer'
 const Right = () => {
+
+  
   return (
     <div className='RightSide'>
      <div>
@@ -10,8 +13,7 @@ const Right = () => {
         <Uptodate/>
      </div>
      <div>
-        <h2>customer reveiw</h2>
-    
+     <Coustomer/>    
      </div>
     </div>
   )

@@ -91,7 +91,7 @@ export const UpdatesData = [
   {
     img: img2,
     name: "James Bond",
-    noti: "has received Samsung gadget for charging battery.",
+    noti: " has received Samsung gadget for charging battery.",
     time: "30 minutes ago",
   },
   {

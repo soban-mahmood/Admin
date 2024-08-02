@@ -136,8 +136,7 @@ function ExtendedCard({ onClick, title, color }) {
           ]}
           type="area"
           options={data.options}
-       width={600}
-          height={320}
+      
         />
       </div>
       <span>Last 24 hours</span>
