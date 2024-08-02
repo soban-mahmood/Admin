@@ -1,0 +1,17 @@
+.Table {
+  margin-top: 3rem;
+}
+
+.MuiTableRow-root > * {
+  padding: 20px !important ;
+}
+
+.MuiTableRow-root.MuiTableRow-head > * {
+  font-weight: 900;
+  padding: 20px !important ;
+}
+
+
+.Detail{
+    color:blue !important;
+}

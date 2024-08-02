@@ -1,13 +1,7 @@
-.Cards{
-    display: flex;
-    gap: 10;
-    justify-content: center;
-    align-items: center;
-
-  
+.Cards {
+  display: flex;
+  gap: 10px;
 }
-
-.parentCard{
-   width: 100%;
-
+.parentCard {
+  width: 100%;
 }
