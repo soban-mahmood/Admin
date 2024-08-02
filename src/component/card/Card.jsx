@@ -126,7 +126,7 @@ function ExtendedCard({ onClick, title, color }) {
         <UilTimes onClick={onClick} />
       </div>
       <span>{title}</span>
-      <div className=".chartContainer">
+      <div className="chartContainer">
         <Chart
           series={[
             {

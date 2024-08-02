@@ -60,9 +60,9 @@ function Coustomer() {
       };
   return (
     <div>
-      <h2>Coustomer Reveiws</h2>
+     
      <Chart series={data.series} options={data.options} type='area'  
-          height={320}/>
+         />
     </div>
   )
 }

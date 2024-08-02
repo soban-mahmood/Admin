@@ -62,7 +62,7 @@
 .extendedCard {
   position: absolute;
   width: 60%;
-  height: 70vh;
+  height: 50vh;
   z-index: 9;
   left: 13rem;
   border-radius: 1rem;
@@ -85,17 +85,20 @@
 
 .chartContainer {
   width: 70%;
+ 
 }
 
 @media screen and (max-width: 1200px) {
   .extendedCard {
     top: 2rem;
-    height: 45vh;
+    height: 55vh;
     left: 6rem;
     width: 70vw;
+  
   }
   .chartContainer{
-    width: 90% !important;
+    width: 80% !important;
+   
   }
 }
 

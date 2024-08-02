@@ -45,4 +45,20 @@ root {
     grid-template-columns: 10% 50% auto;
     overflow-y: scroll;
   }
+  .appGlass{
+    grid-template-columns: 10% 50% auto;
+    overflow-y: scroll;
+  } 
+}
+
+
+@media screen and (max-width: 768px) {
+  .appGlass{
+    grid-template-columns: 1fr;
+  } 
+
+  .appGlass{
+    grid-template-columns: 10% 50% auto;
+    overflow-y: scroll;
+  } 
 }

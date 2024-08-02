@@ -13,6 +13,7 @@ const Right = () => {
         <Uptodate/>
      </div>
      <div>
+     <h3>Coustomer Reveiws</h3>
      <Coustomer/>    
      </div>
     </div>
