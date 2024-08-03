@@ -22,18 +22,26 @@ function Sidebar() {
     <>
       <div
         className="bars"
-        style={expanded ? { left: "60%" } : { left: "5%" }}
+        style={expanded ? { left: "60%" } : { left: "10%" }}
         onClick={() => setExpaned(!expanded)}
       >
-        <UilBars />
+        {expanded && (
+          <div className="sidebarClose" onClick={() => setExpaned(!expanded)}>
+            X
+          </div>
+        )}
+        {!expanded && (
+          <div className="sidebarToggle" onClick={() => setExpaned(!expanded)}>
+            <UilBars />
+          </div>
+        )}
       </div>
       <motion.div
         className="Sidebar"
         variants={sidebarVariants}
         animate={window.innerWidth <= 768 ? `${expanded}` : ""}
       >
-        <div className="logo" >
-        <img src={logo} alt="logo" style={{ color: '#FFAF00' }} />
+        <div className="logo">
           <span>
             Sh<span>o</span>pe
           </span>

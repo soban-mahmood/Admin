@@ -2,10 +2,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-color: #FFAF00;
+  color: #ffaf00;
 }
-
-
 
 @media screen and (max-width: 1200px) {
   .Main {

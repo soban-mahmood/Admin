@@ -12,19 +12,13 @@ root {
 }
 
 .app {
-  color: var(--black);
-  background: linear-gradient(
-    106.37deg,
-    #252945,
-    #252945 51.55%,
-    #f3c6f1 90.85%
-  );
-color: #fff;
+  color: #fff;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: "Inter", sans-serif;
+  background-color: black;
 }
 
 .appGlass {
