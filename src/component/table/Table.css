@@ -1,4 +1,9 @@
-.Table td,
+ .Table{
+  margin-top: 2rem;
+  width: 100%;
+ }
+
+ .Table td,
 th {
   border: none !important;
 }
@@ -15,6 +20,7 @@ th {
   color: #00b5ff !important;
 }
 
+
 @media screen and (max-width: 1200px) {
   .Table {
     width: 170%;
@@ -22,13 +28,14 @@ th {
   }
 }
 
-
 @media screen and (max-width: 768px) {
-  .Table{
+  .Table {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 23rem;
+    width: 30rem;
+
   }
+
 }

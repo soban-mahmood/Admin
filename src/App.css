@@ -15,11 +15,11 @@ root {
   color: var(--black);
   background: linear-gradient(
     106.37deg,
-    #ffe1bc 29.63%,
-    #ffcfd1 51.55%,
+    #252945,
+    #252945 51.55%,
     #f3c6f1 90.85%
   );
-
+color: #fff;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -38,27 +38,26 @@ root {
   overflow: hidden;
 }
 
-
-
 @media (max-width: 1200px) {
-  .appGlass{
+  .appGlass {
     grid-template-columns: 10% 50% auto;
     overflow-y: scroll;
   }
-  .appGlass{
+  .appGlass {
     grid-template-columns: 10% 50% auto;
     overflow-y: scroll;
-  } 
+  }
 }
 
-
 @media screen and (max-width: 768px) {
-  .appGlass{
-    grid-template-columns: 1fr;
-  } 
+  .appGlass {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+  }
 
-  .appGlass{
+  .appGlass {
     grid-template-columns: 10% 50% auto;
     overflow-y: scroll;
-  } 
+  }
 }

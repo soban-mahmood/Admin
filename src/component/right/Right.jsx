@@ -9,7 +9,7 @@ const Right = () => {
   return (
     <div className='RightSide'>
      <div>
-        <h1>update</h1>
+        <h1>Reacent Orders</h1>
         <Uptodate/>
      </div>
      <div>

@@ -2,20 +2,21 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
- 
+color: #FFAF00;
 }
+
 
 
 @media screen and (max-width: 1200px) {
-  .Main{
-      justify-content:flex-start;
-      margin-top: 2rem;
+  .Main {
+    justify-content: flex-start;
+    margin-top: 2rem;
   }
 }
 
-@media screen and (max-width: 768px)
-{
-  .Main{
-      align-items: center;
+@media screen and (max-width: 768px) {
+  .Main {
+    align-items: center;
+    margin-top: 0 !important ;
   }
 }

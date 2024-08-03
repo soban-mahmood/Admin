@@ -5,7 +5,7 @@ import Table from "../table/Table";
 function Main() {
   return (
     <div className="Main">
-      <h1>Dashboard</h1>
+           <h1>Dashboard</h1>
       <Cards />
       <Table/>
     </div>

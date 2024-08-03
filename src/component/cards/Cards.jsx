@@ -5,6 +5,7 @@ import "./Cards.css";
 function Cards() {
   return (
     <div className="Cards">
+    
       {CardsData.map((card, id) => {
         return (
           <div className="parentCard">
