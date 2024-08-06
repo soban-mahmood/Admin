@@ -1,9 +1,13 @@
- .Table{
-  margin-top: 2rem;
-  width: 100%;
- }
 
- .Table td,
+.MuiTableRow-root > * {
+  padding: 10px;
+}
+
+.MuiTableRow-root.MuiTableRow-head > * {
+  font-weight: bold !important;
+}
+
+.Table td,
 th {
   border: none !important;
 }
@@ -16,10 +20,9 @@ th {
   border-radius: 9px;
 }
 
-.Detail {
+.Details {
   color: #00b5ff !important;
 }
-
 
 @media screen and (max-width: 1200px) {
   .Table {
@@ -28,14 +31,13 @@ th {
   }
 }
 
+
 @media screen and (max-width: 768px) {
-  .Table {
+  .Table{
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 30rem;
-
+    width: 23rem;
   }
-
 }

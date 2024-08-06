@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import logo from "../../../public/logo.png";
 import "./Sidebar.css";
 import { UilSignOutAlt, UilBars } from "@iconscout/react-unicons";
+import { ImCross } from "react-icons/im";
 import { SidebarData } from "./Data";
 
 import { motion } from "framer-motion";
@@ -27,7 +28,7 @@ function Sidebar() {
       >
         {expanded && (
           <div className="sidebarClose" onClick={() => setExpaned(!expanded)}>
-            X
+          <ImCross />
           </div>
         )}
         {!expanded && (
